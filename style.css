@@ -1,0 +1,87 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 40px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-name {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: -.15rem;
+  line-height: 1;
+  margin: 1rem 0 1rem 0;
+}
+
+h1 {
+  color: #333;
+}
+
+.read-online {
+ display: none;
+}
+
+/* table { */
+/*   width: 100%; */
+/*   border-collapse: collapse; */
+/*   margin-bottom: 20px; */
+/* } */
+
+/* th, td { */
+/*   border: 1px solid #ddd; */
+/*   padding: 8px; */
+/*   text-align: left; */
+/* } */
+
+/* th { */
+/*   background-color: #f2f2f2; */
+/* } */
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.avatar {
+    width: 95px;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.social-link {
+  border-radius: 25px;
+  /* border: 2px solid #73AD21; */
+  background-color: #f5878c;
+  width:fit-content;
+  padding: 10px;
+  margin: 5px;
+  /* text-align: center; */
+  /* width: 200px; */
+  /* height: 150px; */
+
+  /* font-size:20px; */
+}
+
+.social-links {
+  border-collapse: collapse;
+  max-width: 800px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-url {
+ text-decoration: none;
+ color: black;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
