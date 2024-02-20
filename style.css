@@ -3,7 +3,7 @@ body {
   margin: 40px;
 }
 
-header {
+.main-header {
   text-align: center;
   margin-bottom: 20px;
 }
@@ -83,5 +83,44 @@ section {
 }
 
 hr.solid {
-  border-top: 3px solid #bbb;
+  /* border-top: 3px solid #bbb; */
+  border-top: 3px solid #f5878c;
 }
+
+.resume-item-title {
+  font-weight: 700;
+  margin: 0 0 .75rem;
+  font-size: 1.5rem;
+  letter-spacing: -.05rem;
+  line-height: 1;
+}
+
+.resume-item-details {
+  font-size: 1.125rem;
+  margin: 0 0 .75rem;
+  line-height: 1;
+
+  &.award-title {
+    font-size: 1rem;
+  }
+}
+
+.section-header {
+  /* border-top: 4px solid #f5878c; */
+  border-bottom: 2px solid #f5878c;
+  padding: .2rem 0 .4rem;
+  margin-bottom: 1.5rem;
+  /* text-align: left; */
+
+  h2 {
+    font-weight: 900;
+    font-size: 1.75rem;
+    letter-spacing: -.05rem;
+    margin: 0;
+  }
+}
+
+
+.resume-item-copy { color: #333; margin: .75rem 0 0; }
+
+.resume-item { margin-bottom: 2rem; }
